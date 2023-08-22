@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ltP-73-NGD" customClass="KLinePeriodView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t8q-xf-HEi">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0Lo-Kr-Wj2">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpg-i9-ntW">
+                                    <rect key="frame" x="0.0" y="0.0" width="48" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="分时">
+                                        <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="timeBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="6ve-7z-LVe"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4S-au-Kn9">
+                                    <rect key="frame" x="48" y="0.0" width="48" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="日线">
+                                        <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="timeBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="H2w-F5-7OO"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14V-2W-2ac">
+                                    <rect key="frame" x="96" y="0.0" width="48" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="30m">
+                                        <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="timeBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="mq4-jW-Fxf"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcb-yu-drg">
+                                    <rect key="frame" x="144" y="0.0" width="48" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="15m">
+                                        <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="timeBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="dP0-sp-2cg"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnS-X2-cOu">
+                                    <rect key="frame" x="192" y="0.0" width="48" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="5m">
+                                        <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="timeBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="ojf-fy-kyp"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-5y-UKb" userLabel="lineView01">
+                            <rect key="frame" x="0.0" y="40" width="30" height="3"/>
+                            <color key="backgroundColor" red="0.26666666666666666" green="0.48627450980392156" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Hm3-SR-0nb"/>
+                                <constraint firstAttribute="height" constant="3" id="ouA-gN-4HR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0Lo-Kr-Wj2" firstAttribute="top" secondItem="t8q-xf-HEi" secondAttribute="top" id="1qQ-KE-yZj"/>
+                        <constraint firstAttribute="bottom" secondItem="aoV-5y-UKb" secondAttribute="bottom" constant="1" id="6Pc-Ot-blW"/>
+                        <constraint firstItem="aoV-5y-UKb" firstAttribute="leading" secondItem="t8q-xf-HEi" secondAttribute="leading" id="NqT-at-bd3"/>
+                        <constraint firstItem="0Lo-Kr-Wj2" firstAttribute="leading" secondItem="t8q-xf-HEi" secondAttribute="leading" id="dGh-wN-kSL"/>
+                        <constraint firstAttribute="trailing" secondItem="0Lo-Kr-Wj2" secondAttribute="trailing" id="hMq-US-Kmo"/>
+                        <constraint firstAttribute="bottom" secondItem="0Lo-Kr-Wj2" secondAttribute="bottom" id="l9a-Jt-Ifw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FV-k3-bu6">
+                    <rect key="frame" x="240" y="0.0" width="50" height="44"/>
+                    <subviews>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-mX-FPP" customClass="QMUIButton">
+                            <rect key="frame" x="0.0" y="7" width="50" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="更多">
+                                <color key="titleColor" red="0.56470588239999997" green="0.58823529409999997" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dateBtnAction:" destination="ltP-73-NGD" eventType="touchUpInside" id="jr7-bc-4Eu"/>
+                            </connections>
+                        </button>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lh8-8C-iFa" userLabel="lineView02">
+                            <rect key="frame" x="10" y="40" width="30" height="3"/>
+                            <color key="backgroundColor" red="0.2666666667" green="0.48627450979999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Ppy-IV-bf7"/>
+                                <constraint firstAttribute="height" constant="3" id="S4U-Nv-Ejp"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Lh8-8C-iFa" secondAttribute="bottom" constant="1" id="BxZ-li-yai"/>
+                        <constraint firstItem="Lh8-8C-iFa" firstAttribute="centerX" secondItem="1FV-k3-bu6" secondAttribute="centerX" id="D3m-We-ocw"/>
+                        <constraint firstItem="aJg-mX-FPP" firstAttribute="top" secondItem="1FV-k3-bu6" secondAttribute="top" constant="7" id="TCr-JD-FwG"/>
+                        <constraint firstItem="aJg-mX-FPP" firstAttribute="leading" secondItem="1FV-k3-bu6" secondAttribute="leading" id="UPh-tA-dg3"/>
+                        <constraint firstAttribute="height" constant="44" id="ZPn-XO-Ug7"/>
+                        <constraint firstAttribute="width" constant="50" id="bez-Na-jGR"/>
+                        <constraint firstAttribute="trailing" secondItem="aJg-mX-FPP" secondAttribute="trailing" id="fAk-mu-1sK"/>
+                        <constraint firstAttribute="bottom" secondItem="aJg-mX-FPP" secondAttribute="bottom" constant="7" id="vRN-yf-GdG"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvl-hA-ces" customClass="QMUIButton">
+                    <rect key="frame" x="290" y="12" width="80" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="UN2-0B-FR2"/>
+                        <constraint firstAttribute="height" constant="20" id="dT1-6b-Osi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Ai系统" image="icon_ai_setting">
+                        <color key="titleColor" red="0.56470588235294117" green="0.58823529411764708" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="AISettingBtnClick:" destination="ltP-73-NGD" eventType="touchUpInside" id="MJg-et-YI7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.090196078431372548" green="0.094117647058823528" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="t8q-xf-HEi" firstAttribute="leading" secondItem="ltP-73-NGD" secondAttribute="leading" id="0up-mf-3C4"/>
+                <constraint firstAttribute="bottom" secondItem="t8q-xf-HEi" secondAttribute="bottom" id="4Oy-cm-tLN"/>
+                <constraint firstItem="fvl-hA-ces" firstAttribute="centerY" secondItem="ltP-73-NGD" secondAttribute="centerY" id="Am5-V7-Ma0"/>
+                <constraint firstItem="1FV-k3-bu6" firstAttribute="leading" secondItem="t8q-xf-HEi" secondAttribute="trailing" id="Bqt-5D-oZ2"/>
+                <constraint firstAttribute="trailing" secondItem="fvl-hA-ces" secondAttribute="trailing" constant="5" id="N8L-JJ-wpt"/>
+                <constraint firstItem="1FV-k3-bu6" firstAttribute="centerY" secondItem="ltP-73-NGD" secondAttribute="centerY" id="ccv-VY-ERo"/>
+                <constraint firstItem="t8q-xf-HEi" firstAttribute="top" secondItem="ltP-73-NGD" secondAttribute="top" id="lFS-VH-gZR"/>
+                <constraint firstItem="fvl-hA-ces" firstAttribute="leading" secondItem="1FV-k3-bu6" secondAttribute="trailing" id="xIt-O7-jVz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aiBtn" destination="fvl-hA-ces" id="rKb-h6-40d"/>
+                <outlet property="dateBtn" destination="aJg-mX-FPP" id="doZ-bw-RXb"/>
+                <outlet property="lineView01" destination="aoV-5y-UKb" id="1Bf-kC-qad"/>
+                <outlet property="lineView02" destination="Lh8-8C-iFa" id="SEp-XS-ke6"/>
+                <outlet property="lineViewConstraintX" destination="NqT-at-bd3" id="03w-Kl-SFa"/>
+                <outlet property="sView" destination="t8q-xf-HEi" id="ZEe-PC-WVW"/>
+                <outlet property="timeBtn01" destination="Xpg-i9-ntW" id="0W7-27-rfG"/>
+                <outlet property="timeBtn02" destination="v4S-au-Kn9" id="Tuc-Z9-BCb"/>
+                <outlet property="timeBtn03" destination="14V-2W-2ac" id="P8x-UZ-Kwr"/>
+                <outlet property="timeBtn04" destination="Wcb-yu-drg" id="H8y-gK-F3h"/>
+                <outlet property="timeBtn05" destination="qnS-X2-cOu" id="v6T-bE-XGQ"/>
+            </connections>
+            <point key="canvasLocation" x="327" y="-254"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_ai_setting" width="18" height="18"/>
+    </resources>
+</document>

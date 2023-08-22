@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4SB-80-BXD" customClass="KLineBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DIS-sW-fA3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRm-RO-PSW">
+                            <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM3-nZ-WgY" customClass="QMUIButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="股票金池" image="icon_add"/>
+                                    <connections>
+                                        <action selector="addPondBtnClick:" destination="4SB-80-BXD" eventType="touchUpInside" id="8ie-wD-fAs"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="lM3-nZ-WgY" secondAttribute="trailing" id="GwW-ru-gov"/>
+                                <constraint firstItem="lM3-nZ-WgY" firstAttribute="top" secondItem="RRm-RO-PSW" secondAttribute="top" id="SwY-vF-rqL"/>
+                                <constraint firstItem="lM3-nZ-WgY" firstAttribute="leading" secondItem="RRm-RO-PSW" secondAttribute="leading" id="VYq-ZO-BRr"/>
+                                <constraint firstAttribute="bottom" secondItem="lM3-nZ-WgY" secondAttribute="bottom" id="ubH-tw-qAN"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OrB-pT-8Mt">
+                            <rect key="frame" x="207" y="0.0" width="207" height="60"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2t-k8-Qcj" userLabel="lineView">
+                                    <rect key="frame" x="0.0" y="15" width="0.66666666666666663" height="30"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="0.67000000000000004" id="Shk-HQ-sUs"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYh-rZ-hzf" customClass="QMUIButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="缠论报警" image="icon_add"/>
+                                    <connections>
+                                        <action selector="addAIBtnClick:" destination="4SB-80-BXD" eventType="touchUpInside" id="7dZ-UD-Po5"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="l2t-k8-Qcj" firstAttribute="top" secondItem="OrB-pT-8Mt" secondAttribute="top" constant="15" id="DK8-PW-En7"/>
+                                <constraint firstAttribute="trailing" secondItem="UYh-rZ-hzf" secondAttribute="trailing" id="Uty-Sf-V09"/>
+                                <constraint firstItem="UYh-rZ-hzf" firstAttribute="leading" secondItem="OrB-pT-8Mt" secondAttribute="leading" id="bZG-A8-zKN"/>
+                                <constraint firstItem="UYh-rZ-hzf" firstAttribute="top" secondItem="OrB-pT-8Mt" secondAttribute="top" id="c8w-83-eNn"/>
+                                <constraint firstItem="l2t-k8-Qcj" firstAttribute="leading" secondItem="OrB-pT-8Mt" secondAttribute="leading" id="eFf-Ii-2JG"/>
+                                <constraint firstAttribute="bottom" secondItem="UYh-rZ-hzf" secondAttribute="bottom" id="mdC-pf-mm8"/>
+                                <constraint firstAttribute="bottom" secondItem="l2t-k8-Qcj" secondAttribute="bottom" constant="15" id="n72-rY-0hz"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.090196078431372548" green="0.094117647058823528" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="RRm-RO-PSW" secondAttribute="bottom" id="3BH-Ku-izr"/>
+                        <constraint firstItem="RRm-RO-PSW" firstAttribute="leading" secondItem="DIS-sW-fA3" secondAttribute="leading" id="8Gk-P8-YvI"/>
+                        <constraint firstItem="OrB-pT-8Mt" firstAttribute="leading" secondItem="RRm-RO-PSW" secondAttribute="trailing" id="Irl-te-5Ul"/>
+                        <constraint firstItem="RRm-RO-PSW" firstAttribute="top" secondItem="DIS-sW-fA3" secondAttribute="top" id="aX4-s3-ehD"/>
+                        <constraint firstItem="OrB-pT-8Mt" firstAttribute="leading" secondItem="RRm-RO-PSW" secondAttribute="trailing" id="hmT-ha-uFl"/>
+                        <constraint firstAttribute="trailing" secondItem="OrB-pT-8Mt" secondAttribute="trailing" id="pEC-IA-tfn"/>
+                        <constraint firstItem="OrB-pT-8Mt" firstAttribute="top" secondItem="DIS-sW-fA3" secondAttribute="top" id="tFo-62-Ylb"/>
+                        <constraint firstAttribute="bottom" secondItem="OrB-pT-8Mt" secondAttribute="bottom" id="uWe-1E-mJc"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RyT-zC-5Xv" userLabel="lineView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="0.66666666666666663"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.67000000000000004" id="j7u-hA-lNm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DIS-sW-fA3" firstAttribute="leading" secondItem="4SB-80-BXD" secondAttribute="leading" id="0ja-1z-C7g"/>
+                <constraint firstAttribute="bottom" secondItem="DIS-sW-fA3" secondAttribute="bottom" id="0pi-bY-VFA"/>
+                <constraint firstAttribute="trailing" secondItem="DIS-sW-fA3" secondAttribute="trailing" id="B5a-Ji-6vV"/>
+                <constraint firstItem="RyT-zC-5Xv" firstAttribute="leading" secondItem="4SB-80-BXD" secondAttribute="leading" id="H66-Xl-enx"/>
+                <constraint firstItem="RyT-zC-5Xv" firstAttribute="top" secondItem="4SB-80-BXD" secondAttribute="top" id="H90-WQ-Wou"/>
+                <constraint firstAttribute="trailing" secondItem="RyT-zC-5Xv" secondAttribute="trailing" id="v3J-F3-JbD"/>
+                <constraint firstItem="DIS-sW-fA3" firstAttribute="top" secondItem="4SB-80-BXD" secondAttribute="top" id="vHw-OA-KQU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addAIBtn" destination="UYh-rZ-hzf" id="hlb-b1-OZf"/>
+                <outlet property="addPondBtn" destination="lM3-nZ-WgY" id="8c6-b5-Isr"/>
+            </connections>
+            <point key="canvasLocation" x="79" y="29"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_add" width="16" height="16"/>
+    </resources>
+</document>

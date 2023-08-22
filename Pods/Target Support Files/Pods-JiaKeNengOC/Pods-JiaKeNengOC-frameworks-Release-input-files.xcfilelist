@@ -1,0 +1,16 @@
+${PODS_ROOT}/Target Support Files/Pods-JiaKeNengOC/Pods-JiaKeNengOC-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
+${BUILT_PRODUCTS_DIR}/GZIP/GZIP.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework
+${BUILT_PRODUCTS_DIR}/JXPagingView/JXPagingView.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/NullSafe/NullSafe.framework
+${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/WMZDialog/WMZDialog.framework
+${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework

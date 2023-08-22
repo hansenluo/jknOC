@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37A761C8-C511-4E5B-AFF1-367EF055CEFF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBDB42E0-A81B-42B2-BF21-374741157ABC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/QuotationList/QuotationListVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "-buttonClick:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBDB42E0-A81B-42B2-BF21-374741157ABC - b20961d4c9e37d63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[QuotationListVC buttonClick:]"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/QuotationList/QuotationListVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "EBDB42E0-A81B-42B2-BF21-374741157ABC - b20961d4c9e37d44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[QuotationListVC buttonClick:]"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/QuotationList/QuotationListVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBC99864-9F7E-4269-9FC3-3D4E7596910E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/alarm/alarmVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "232C72EA-1A2A-456D-8FD9-4FBBDA34972A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/QuotationList/controller/QuotationMainVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-pagerView:initListAtIndex:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEABE03C-B899-405D-AA07-5795CD597828"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/custom/MLPagerView/MLPagerListContainerView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "417"
+            endingLineNumber = "417"
+            landmarkName = "-reloadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0315B8D8-89E9-4394-9CC9-526A6B9294E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/superSelectStock/view/SelectStrategyView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "967"
+            endingLineNumber = "967"
+            landmarkName = "-buttonDClick:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0315B8D8-89E9-4394-9CC9-526A6B9294E9 - eee4da18119db9a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelectStrategyView buttonDClick:]"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/superSelectStock/view/SelectStrategyView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "962"
+                  endingLineNumber = "962"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "0315B8D8-89E9-4394-9CC9-526A6B9294E9 - eee4da18119db8de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelectStrategyView buttonDClick:]"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/superSelectStock/view/SelectStrategyView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "967"
+                  endingLineNumber = "967"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA8D33F2-6C78-45DC-8DC8-B33A2D2A76CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/KLineActivity/controller/KLineMainVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "981"
+            endingLineNumber = "981"
+            landmarkName = "-requestStockTimeData:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA8D33F2-6C78-45DC-8DC8-B33A2D2A76CF - 2ff8b4277dae4f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[KLineMainVC requestStockTimeData:]_block_invoke"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/KLineActivity/controller/KLineMainVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "941"
+                  endingLineNumber = "941"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "DA8D33F2-6C78-45DC-8DC8-B33A2D2A76CF - 2ff8b4277dae4b0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[KLineMainVC requestStockTimeData:]_block_invoke"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/KLineActivity/controller/KLineMainVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "971"
+                  endingLineNumber = "971"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "DA8D33F2-6C78-45DC-8DC8-B33A2D2A76CF - 2ff8b4277dae45b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[KLineMainVC requestStockTimeData:]_block_invoke"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/KLineActivity/controller/KLineMainVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "991"
+                  endingLineNumber = "991"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "DA8D33F2-6C78-45DC-8DC8-B33A2D2A76CF - 2ff8b4277dae4441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[KLineMainVC requestStockTimeData:]_block_invoke"
+                  moduleName = "JiaKeNengOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jkn-mac/Desktop/JiaKeNengOC/JiaKeNengOC/activity/KLineActivity/controller/KLineMainVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "981"
+                  endingLineNumber = "981"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29F084F6-F1D4-410E-A4CB-9D9E6577CB54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiaKeNengOC/activity/home/controller/JKNHomeController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "-autoUpdateData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StrategyStockListVC">
+            <connections>
+                <outlet property="headerView" destination="Qde-sf-xiE" id="42n-Ac-ehL"/>
+                <outlet property="tableView" destination="5EU-cM-52j" id="kgK-h6-BVm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qde-sf-xiE" userLabel="headerView">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="45"/>
+                    <viewLayoutGuide key="safeArea" id="gbf-4q-XTr"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="wPz-Ie-qZJ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5EU-cM-52j">
+                    <rect key="frame" x="0.0" y="45" width="393" height="807"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Feu-3T-EAh"/>
+                        <outlet property="delegate" destination="-1" id="tLI-uh-gbY"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5EU-cM-52j" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="1AF-gE-f0K"/>
+                <constraint firstItem="Qde-sf-xiE" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="1ba-AH-iJ4"/>
+                <constraint firstAttribute="bottom" secondItem="5EU-cM-52j" secondAttribute="bottom" id="Gr9-B4-5Id"/>
+                <constraint firstItem="5EU-cM-52j" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="ZRu-OS-xvR"/>
+                <constraint firstItem="5EU-cM-52j" firstAttribute="top" secondItem="Qde-sf-xiE" secondAttribute="bottom" id="iDj-bx-aMj"/>
+                <constraint firstItem="Qde-sf-xiE" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="jcZ-qs-wk9"/>
+                <constraint firstItem="Qde-sf-xiE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tSu-Hb-TZW"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+</document>
